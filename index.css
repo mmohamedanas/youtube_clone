@@ -1,0 +1,127 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.material-icons {
+    color:rgb(96,96,96);
+}
+
+.header {
+    display: flex;
+
+    align-items: center;
+    height:70px;
+    padding:15px;
+
+}
+
+.header_left {
+    display:flex;
+    align-items: center;
+}
+.header_left img {
+    width:100px;
+    margin-left:15px;
+    cursor:pointer
+}
+
+.header i {
+    padding:0px 7px;
+    cursor:pointer
+}
+
+.header_search form {
+    border:1px solid #ddd;
+    height:35px;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.header_search input {
+   
+    padding:10px;
+    margin:0;
+    border-radius:0;
+    border:none;
+}
+
+.header_search button {
+    padding:0;
+    margin:0;
+    height:100%;
+    border:none;
+    border-radius:0;
+}
+
+/* Main body */
+
+
+
+
+/* video */
+
+
+
+.videos_container iframe{
+    margin:30px 10px;
+    border-radius: 10px;
+}
+
+/* video content */
+
+.video_content {
+    margin:10px 10px
+}
+.video_content img {
+    margin:20px 10px;
+    border-radius:50%;
+    display: inline;
+
+}
+.video_content p {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.video_icons span {
+    font-size: 30px;
+    font-weight: lighter;
+    margin:0 10px
+}
+.channel_content {
+    display:flex;
+    
+}
+.channel_content div{
+    display:flex;
+    
+}
+.channel_content h2 {
+    margin:20px 20px
+}
+.channel_content p {
+    border:1px solid black;
+    padding:0px 10px
+}
+
+
+
+@media screen and (max-width:500px) {
+    .header_search input {
+        width:100px;
+        padding:10px;
+        margin:0;
+        border-radius:0;
+        border:none;
+    }
+
+}
