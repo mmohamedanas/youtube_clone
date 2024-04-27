@@ -15,15 +15,28 @@
   <div class="container">
     <h2>Create your account</h2>
     <form action="#" method="post">
-      <input type="text" name="fullname" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <input type="password" name="password" placeholder="Password" required>
-      <input type="submit" value="Sign Up">
+      <label>Salutation</label><br/>
+      <select>
+        <option>--None--</option>
+        <option>Hi There</option>
+        <option>Hello!</option>
+        <option>What's up?</option>
+      </select>
+
+      <input type="text" name="First name" placeholder="First name" required>
+      <input type="text" name="Last name" placeholder="Last name" required>
+      <label>Gender: </label>
+      <input type="radio" name="Male" />
+      <label>Male</label>
+      <input type="radio" name="Female" />
+      <label>Female</label>
+      <input type="email" name="email" placeholder="Email Address" required/>
+      <span style="padding-top:30px;">Date of Birth: </span>
+      <input type="date"/><br/>
+      <p style="padding:10px 0">Address: </label><br/>
+      <textarea rows="5" cols="50"></textarea>
+      <input type="submit" value="Submit">
     </form>
-    <div class="separator">
-      <span>or</span>
-    </div>
-    <p style="text-align: center;">Already have an account? <a href="#">Sign in</a></p>
-  </div>
+    
 </body>
 </html>
